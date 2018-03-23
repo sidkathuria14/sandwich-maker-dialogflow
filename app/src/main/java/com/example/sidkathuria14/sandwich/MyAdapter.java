@@ -28,9 +28,9 @@ Context context;
     public MyAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         int layoutType;
         if(viewType == 0){
-            layoutType = R.layout.item_view_left;
-        }else{
             layoutType = R.layout.item_view_right;
+        }else{
+            layoutType = R.layout.item_view_left;
         }
 //        Log.d(TAG, "onCreateViewHolder: ");
         LayoutInflater li = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);

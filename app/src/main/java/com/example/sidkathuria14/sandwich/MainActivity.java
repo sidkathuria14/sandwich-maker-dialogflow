@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 ////                        ,"20150910"
 //                )
                input =  etInput.getText().toString();
+               etInput.setText("");
                arrayList.add(new StringWithBinary(0,input));
                adapter.notifyDataSetChanged();
 
